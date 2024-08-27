@@ -8,7 +8,7 @@ pipeline {
        }
         stage('checkout') {
            steps {
-               git https://github.com/Vivekrsg/Jenkins.git
+               git "https://github.com/Vivekrsg/Jenkins.git"
            }
        }
        stage('build') {
